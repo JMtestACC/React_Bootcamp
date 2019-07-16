@@ -3,6 +3,9 @@ class App extends React.Component {
 		return (
 			<div>
 				<Hello />
+				<MoodGenerator />
+				<DigitGenerator />
+				<ShowImage />
 			</div>
 		);
 	}
