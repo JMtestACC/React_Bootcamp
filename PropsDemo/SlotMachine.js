@@ -5,8 +5,11 @@ class SlotMachine extends React.Component {
 
         return (
             <div>
-                <p>{slot1} {slot2} {slot3}</p>
-                <p>{winner ? 'Winner' : 'Loser'}</p>
+                <p style={{backgroundColor: "grey", fontSize: "20px"}}>GAME</p>
+                <p className="SlotMachine">{slot1} {slot2} {slot3}</p>
+                <p className={winner ? 'win' : 'lose'}>
+                    {winner ? 'Winner' : 'Loser'}
+                </p>
             </div>
         );
     }

@@ -1,0 +1,14 @@
+.SlotMachine {
+    border: 2px solid black;
+    background-color: lightgreen;
+}
+
+.win {
+    color: white;
+    background-color: green;
+}
+
+.lose {
+    color: white;
+    background-color: red;
+}
