@@ -2,7 +2,13 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<Hello />
+				<Hello 
+					to = 'You'
+					from = 'Me'
+				/>
+				<Hello 
+					to = 'All'
+				/>
 				<MoodGenerator />
 				<DigitGenerator />
 				<ShowImage />
