@@ -1,0 +1,10 @@
+.FruitPicker-title {
+    border: 2px solid black;
+    text-align: center;
+    color: orangered;
+    background-color: yellowgreen;
+}
+
+p {
+    color: tomato;
+}

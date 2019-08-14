@@ -1,0 +1,10 @@
+.App {
+    position: absolute;
+    margin: 25px 100px;
+    background-color: seashell;
+}
+
+.App-title {
+    color: skyblue;
+    background-color: slategray;
+}
